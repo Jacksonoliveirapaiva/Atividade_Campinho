@@ -1,0 +1,11 @@
+let rs = require ("readline-sync");
+
+let anoDeNascimento = rs.questionInt("Digite o ano em que você nasceu!");
+
+let ano = 2020
+
+if (ano - anoDeNascimento >= 16){
+    console.log("Você poderá votar esse ano!")
+}else{
+    console.log("Cresça!!")
+}
